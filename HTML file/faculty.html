@@ -1,0 +1,357 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>faculty html</title>
+<link rel="icon" type="image/x-icon" href="image/icon.jpg">
+<style>
+  body {
+    font-family: "Khmer OS Siemreab", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+  }
+  .faculty-header {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .faculty-header img {
+    width: 350px;
+    height: 150px;
+  }
+  .faculty-title {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .faculty-table-container {
+    overflow-x: auto;
+    margin: 30px auto;
+    max-width: 1200px;
+  }
+  table.faculty-table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 2px 8px #0001;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  table.faculty-table th, table.faculty-table td {
+    padding: 8px 6px;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+  }
+  table.faculty-table th {
+    background: #f2f2f2;
+    font-weight: bold;
+  }
+  table.faculty-table tr:nth-child(even) {
+    background: #fafafa;
+  }
+  table.faculty-table img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: #eee;
+  }
+  #footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #333;
+    background: #f2f2f2;
+    padding: 12px 0 8px 0;
+    font-size: 1em;
+    border-top: 1px solid #ddd;
+  }
+  #footer img {
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  @media screen and (max-width: 700px) {
+    .faculty-header img {
+      width: 90vw;
+      height: auto;
+    }
+    .faculty-table-container {
+      max-width: 100vw;
+      padding: 0 2vw;
+    }
+    table.faculty-table th, table.faculty-table td {
+      font-size: 0.95em;
+      padding: 6px 2px;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="faculty-header">
+  <img src="cost.jpg" alt="COST">
+  <div class="faculty-title" style="font-family: 'Kh Muol', 'Khmer OS Muol', serif;">
+    គ្រូបង្រៀន មហាវិទ្យាល័យវិទ្យាសាស្រ្តនិងបច្ចេកវិទ្យា
+  </div>
+</div>
+
+<div class="faculty-table-container">
+  <table border="1" style="border: black;">
+    <thead>
+      <tr>
+        <th>№</th>
+        <th>Name</th>
+        <th>Photo</th>
+        <th>Tel</th>
+        <th>Courses</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Teav Chhunnan</td>
+        <td>
+          <img src="1.jpg" alt="Teav Chhunnan">
+        </td>
+        <td>093777552@cost_uc</td>
+        <td style="text-align: center;">Basic ITE101, HTML, CSS, Repairing, Cisco network</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Nhanh Nhim</td>
+        <td>
+          <img src="2.jpg" alt="Nhanh Nhim">
+        </td>
+        <td>070295027@Nhanh_Nhim</td>
+        <td style="text-align: center;">Basic ITE101, Graphic, UI/UX, C++, Java</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Y Sokha</td>
+        <td>
+          <img src="3.jpg" alt="Y Sokha">
+        </td>
+        <td>077211983@YSokha</td>
+        <td style="text-align: center;">ITE101, BUS202</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Dan Tangoun</td>
+        <td>
+          <img src="4.jpg" alt="Dan Tangoun">
+        </td>
+        <td>077399964@dantangoun</td>
+        <td style="text-align: center;">ITE101, Web, JavaScript, PHP, Python</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Chhay Buntha</td>
+        <td>
+          <img src="5.jpg" alt="Chhay Buntha">
+        </td>
+        <td>078428214@ChBuntha</td>
+        <td style="text-align: center;">Repair, Cisco Network</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Chhoeung Ranya</td>
+        <td>
+        </td>
+        <td> 010914193@RanyaPhD</td>
+        <td style="text-align: center;">ITE101, Web, HTML, CSS, PHP, Java,</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Mork Ratha</td>
+        <td>
+        </td>
+        <td>017307327</td>
+        <td style="text-align: center;">Java, JavaScript, database, web</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Sokun Prosith</td>
+        <td>
+          <img src="8.jpg" alt="Faculty 8">
+        </td>
+        <td>017431186@username85517431186</td>
+        <td style="text-align: center;">ITE101K, HTM,CSS, Java</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Tim Simatre</td>
+        <td>
+          <img src="9.jpg" alt="Faculty 9">
+        </td>
+        <td>0963777141@timsimatre</td>
+        <td style="text-align: center;">ITE101K</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Vichhaiy Serey</td>
+        <td>
+          <img src="10.jpg" alt="Faculty 10">
+        </td>
+        <td>015370170@vichhaiyserey</td>
+        <td style="text-align: center;">Cyber, AI, DevOps, Data Mining, Data Science</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>Un Virak</td>
+        <td>
+          <img src="11.jpg" alt="Faculty 11">
+        </td>
+        <td>012 717261 @virakuhs</td>
+        <td style="text-align: center;">Java, Database, Mobile App, Web</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>FSann Sophar</td>
+        <td>
+         </td>
+        <td>016801119 @sopharwind</td>
+        <td style="text-align: center;">C++, Java, Database SQL, Web</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>Prak Samrith</td>
+        <td>
+          <img src="13.jpg" alt="Faculty 13">
+        </td>
+        <td>098795357 @praksamrith_kh</td>
+        <td style="text-align: center;">Mobile App, Web, Database</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>Yann Soursdey</td>
+        <td>
+          <img src="14.jpg" alt="Faculty 14">
+        </td>
+        <td>010265668</td>
+        <td style="text-align: center;">Database, HTML, CSS, Web, Digital Marketing</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>Yoeung Vibol</td>
+        <td>
+          <img src="15.jpg" alt="Faculty 15">
+        </td>
+        <td>093910871 @vibolyoeung</td>
+        <td style="text-align: center;">Web CSS, JavaScript, PHP, Android</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>Pakrigna Long</td>
+        <td>
+          <img src="16.jpg" alt="Faculty 16">
+        </td>
+        <td>010644496 @Pakrigna</td>
+        <td style="text-align: center;">Python, AI/ML, Sensors, embedded systems</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>Long Sothea</td>
+        <td>
+          <img src="17.jpg" alt="Faculty 17">
+        </td>
+        <td>012252730 @IntgSIS</td>
+        <td style="text-align: center;">Web CSS, JavaScript, PHP, ASP, C#, Database</td>
+      </tr>
+      <tr>
+        <td>18</td>
+        <td>Hang Youlay</td>
+        <td>
+          <img src="18.jpg" alt="Faculty 18">
+        </td>
+        <td>096 865 0464, @Youlayhang</td>
+        <td style="text-align: center;">C++, Database, Programming, Android</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>Noun Ngoeun</td>
+        <td>
+        </td>
+        <td>092847188 @noun_ngoeun092</td>
+        <td style="text-align: center;">PHP, .NET,SQL, AI</td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>Tonn Daroth</td>
+        <td>
+        </td>
+        <td style="text-align: center;">093 522 272@Tonnsaroth</td>
+        <td>ITE101K</td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>FPhon Sopheap</td>
+        <td>
+          <img src="21.jpg" alt="Faculty 21">
+        </td>
+        <td>093 662 016</td>
+        <td style="text-align: center;">Network Cisco, Server, Linux, Security, Repairing</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>Chhoy Seila</td>
+        <td>
+          <img src="22.jpg" alt="Faculty 22">
+        </td>
+        <td>093 777 599@Seilac</td>
+        <td style="text-align: center;">Network Cisco, Server, Linux, Security,AI/ML</td>
+      </tr>
+      <tr>
+        <td>23</td>
+        <td>Chan Rachna</td>
+        <td>
+        </td>
+        <td>070707670</td>
+        <td style="text-align: center;">ITE101, Graphic, Digital Media</td>
+      </tr>
+      <tr>
+        <td>24</td>
+        <td>Meas Sovann</td>
+        <td>
+          <img src="24.jpg" alt="Faculty 24">
+        </td>
+        <td>015539166@sovannhi</td>
+        <td style="text-align: center;">Web CSS, JavaScript, PHP</td>
+      </tr>
+      <tr>
+        <td>25</td>
+        <td>Dr.Lypengleang</td>
+        <td>
+          <img src="25.jpg" alt="Faculty 25">
+        </td>
+        <td>016799912@lypengleang</td>
+        <td style="text-align: center;">Database, .NET</td>
+      </tr>
+      <tr>
+        <td>26</td>
+        <td>Sreang Kosal</td>
+        <td>
+          <img src="26.jpg" alt="Faculty 26">
+        </td>
+        <td></td>
+        <td style="text-align: center;">Database</td>
+      </tr>
+      <tr>
+        <td>27</td>
+        <td>Long Nipaul</td>
+        <td>
+          <img src="27.jpg" alt="Faculty 27">
+        </td>
+        <td>078292701@nipaullong</td>
+        <td style="text-align: center;">Database, Web, Mobile App</td>
+      </tr>
+    </tbody>
+  </table>
+ 
+</div>
+
+<div id="footer">
+  <img src="uc.png" width="40" height="40">
+  Copyright © University of Cambodia
+</div>
+</body>
+</html>
